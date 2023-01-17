@@ -1,0 +1,1 @@
+For a web app I would want to make a snake clone as my first game.
