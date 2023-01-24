@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Draconic;
+    src: url(DND5EDraconicScript.ttf);
+}
+@font-face {
+    font-family: Papyrus;
+    src: url(PAPYRUS.TTF);
+}
+#mainheader {
+    font-family: Papyrus, fantasy, monospace;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: normal;
+    color: darkgoldenrod;
+    border-width: 5px 10px;
+    border-style: outset inset;
+    text-decoration: wavy underline;
+    padding: 0px;
+    margin: 10px, 0px;
+    
+}
+.dragontext {
+    font: 25px Draconic;
+    color: darkred;
+    line-height: 2.5    ;
+}
+body {
+    background-color: greenyellow;
+}
+table, th, td {
+    border: 1px solid black;
+}
+a[role="button"] {
+    border-width: 10px 10px;
+    border-style: outset;
+    border-color: white;
+    font-size: 30px;
+}
