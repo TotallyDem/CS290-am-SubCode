@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Draconic;
+    src: url(DND5EDraconicScript.ttf);
+}
+@font-face {
+    font-family: Papyrus;
+    src: url(PAPYRUS.TTF);
+}
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+#mainheader {
+    font-family: Lato, monospace;
+    font-variant: normal;
+    font-weight: normal;
+    color: darkgoldenrod;
+    padding: 0px;
+    margin: 10px, 0px;
+    
+}
+.dragontext {
+    font: 25px Draconic;
+    color: darkred;
+    line-height: 2.5    ;
+}
+@media screen and (min-width: 721px) {
+    div.maincolumn {
+        text-align: center;
+        display: block;
+        align-self: center;
+        position: relative;
+        max-width: 720px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 720px) {
+    div.maincolumn {
+        text-align: center;
+        display: block;
+        align-self: center;
+        position: relative;
+        margin: auto;
+    }   
+}
+
+img {
+    max-width: 100%;
+}
+div.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: seagreen;
+}
+div.menubar ul li {
+    float: left;
+}
+div.menubar ul li a{
+    border-right: 1px solid black;
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+div.menubar ul li a:hover{
+    display: block;
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+div.wrapper {
+    font-family: Lato;
+}
+div.maincolumn {
+    overflow: hidden;
+}
+div.extracontent {
+    text-align: left;
+}
+body {
+    background-color: darkgreen;
+}
+table, th, td {
+    border: 1px solid black;
+}
+a[role="button"] {
+    border-width: 10px 10px;
+    border-style: outset;
+    border-color: white;
+    font-size: 30px;
+}
