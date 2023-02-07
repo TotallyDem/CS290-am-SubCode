@@ -80,6 +80,7 @@ div.maincolumn {
     overflow: hidden;
 }
 div.extracontent {
+    font-family: inherit;
     text-align: left;
 }
 body {
@@ -88,9 +89,28 @@ body {
 table, th, td {
     border: 1px solid black;
 }
-a[role="button"] {
-    border-width: 10px 10px;
-    border-style: outset;
-    border-color: white;
-    font-size: 30px;
+.download {
+    align-items: center;
+    background: slategray;
+    border-radius: 5px;
+    display: inline-block;
+    width: fit-content;
+}
+.download a {
+    box-sizing: border-box;
+    color: lightgoldenrodyellow;
+    font-size: 14;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    min-width: 100px;
+}
+.download:hover {
+    background: darkolivegreen;
+}
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
 }
