@@ -6,3 +6,6 @@ To be frank, as I have nothing to work off of in terms of game code there will c
 
 --Change From week 2--
 Added the ability to codify text by changing the font to the draconic font from dnd. I could use this font for a short story that reveals parts based on how long the snake gets. Other than that I applied borders, a background, and various little css tweaks. I also included the papyrus font just for the hell of it. 
+
+--Changes for week 3-4--
+I stripped out a lot of the earlier weeks content, cleaning up the appearance and trying to mimic the itch.io appearance for game pages. The webpage size is now dynamic to screen width, although it would be prefereable if it expanded to an aspect ratio instead.
