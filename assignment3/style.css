@@ -1,8 +1,4 @@
 @font-face {
-    font-family: Draconic;
-    src: url(DND5EDraconicScript.ttf);
-}
-@font-face {
     font-family: Papyrus;
     src: url(PAPYRUS.TTF);
 }
@@ -18,11 +14,6 @@
     padding: 0px;
     margin: 10px, 0px;
     
-}
-.dragontext {
-    font: 25px Draconic;
-    color: darkred;
-    line-height: 2.5    ;
 }
 @media screen and (min-width: 721px) {
     div.maincolumn {
@@ -45,36 +36,11 @@
 }
 
 img {
-    max-width: 100%;
-}
-div.menubar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: seagreen;
-}
-div.menubar ul li {
-    float: left;
-}
-div.menubar ul li a{
-    border-right: 1px solid black;
-    display: block;
-    color: orange;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
-div.menubar ul li a:hover{
-    display: block;
-    color: white;
-    background-color: darkslategray;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
+    width: 100%;
 }
 div.wrapper {
     font-family: Lato;
+    overflow: auto;
 }
 div.maincolumn {
     overflow: hidden;
@@ -82,6 +48,7 @@ div.maincolumn {
 div.extracontent {
     font-family: inherit;
     text-align: left;
+    overflow: auto;
 }
 body {
     background-color: darkgreen;
