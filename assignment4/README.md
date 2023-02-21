@@ -11,4 +11,4 @@ Added the ability to codify text by changing the font to the draconic font from 
 I stripped out a lot of the earlier weeks content, cleaning up the appearance and trying to mimic the itch.io appearance for game pages. The webpage size is now dynamic to screen width, although it would be prefereable if it expanded to an aspect ratio instead.
 
 --Changes for week 5-6--
-Since we got to javascript, I finally implemented the snake game portion of the website. For the subpage I #TODO
+Since we got to javascript, I finally implemented the snake game portion of the website. For the subpage I made some primitive code that demonstrates scope and input and output, the scope demonstation is in console.
