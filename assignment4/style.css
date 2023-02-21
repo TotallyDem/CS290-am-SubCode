@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Papyrus;
+    src: url(PAPYRUS.TTF);
+}
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+#mainheader {
+    font-family: Lato, monospace;
+    font-variant: normal;
+    font-weight: normal;
+    color: darkgoldenrod;
+    padding: 0px;
+    margin: 10px, 0px;
+    
+}
+#canvas {
+    width: 100%;
+}
+@media screen and (min-width: 721px) {
+    div.maincolumn {
+        text-align: center;
+        display: block;
+        align-self: center;
+        position: relative;
+        max-width: 720px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 720px) {
+    div.maincolumn {
+        text-align: center;
+        display: block;
+        align-self: center;
+        position: relative;
+        margin: auto;
+    }   
+}
+
+img {
+    width: 100%;
+}
+div.wrapper {
+    font-family: Lato;
+    overflow: auto;
+}
+div.maincolumn {
+    overflow: hidden;
+}
+div.extracontent {
+    font-family: inherit;
+    text-align: left;
+    overflow: auto;
+}
+body {
+    background-color: darkgreen;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.download {
+    align-items: center;
+    background: slategray;
+    border-radius: 5px;
+    display: inline-block;
+    width: fit-content;
+}
+.download a {
+    box-sizing: border-box;
+    color: lightgoldenrodyellow;
+    font-size: 14;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    min-width: 100px;
+}
+.download:hover {
+    background: darkolivegreen;
+}
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
