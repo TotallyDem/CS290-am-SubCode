@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website week 3-4</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Game, Project, Incomplete">
+        <meta name="author", content="Alex Murray">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dummystyle.css">
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    </head>
+    <body>
+        <!-- *Using this code we can import other python files.
+        <py-config>
+            [[fetch]]
+            files = ["/test.py"]
+        </py-config>
+        -->
+        <py-script>
+            i = 1
+            def countup():
+                global i
+                i = i + 1
+                manual_div = Element("manual-write")
+                manual_div.element.innerText = i
+        </py-script>
+        <div class="wrapper">
+            <div class="maincolumn">
+            <h1 id="mainheader">Net Snake</h1>
+            <p>Made in javascript<br>Over 1 course</p>
+            <div id="graph-area"></div>
+            <div id="manual-write"></div>
+            <!--!If this doesn't have an id things break for some reason.-->
+            <button py-click="countup()" id="manual">Click me!</button> 
+                <h2>Neat links</h2>
+                <div class="download">
+                    <a href="assignment3subpage.html">Download</a>
+                </div>
+                <p style="display: inline;">click_here_for_other_assignment_reqs.html</p>
+                <h3>Game features</h3>
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
