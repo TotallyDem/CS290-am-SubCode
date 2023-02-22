@@ -16,7 +16,9 @@
     
 }
 #canvas {
-    width: 100%;
+    width: 99%;
+    border: 1px solid aquamarine;
+    border-radius: 3px;
 }
 @media screen and (min-width: 721px) {
     div.maincolumn {

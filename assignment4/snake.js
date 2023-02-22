@@ -110,30 +110,35 @@ document.addEventListener("keydown", function(e) {
     switch (e.keyCode) {
         case 38: // Up arrow
             e.preventDefault();
-            if (snake.direction !== "down") {
+            if ((snake.body[1].x !== snake.body[0].x) && (snake.body[1].y-1!==snake.body[0].y)) {
                 snake.direction = "up";
             }
             break;
         case 40: // Down arrow
             e.preventDefault();
-            if (snake.direction !== "up") {
+            if ((snake.body[1].x !== snake.body[0].x) && (snake.body[1].y+1!==snake.body[0].y)) {
                 snake.direction = "down";
             }
             break;
         case 37: // Left arrow
             e.preventDefault();
-            if (snake.direction !== "right") {
+            if ((snake.body[1].x-1 !== snake.body[0].x) && (snake.body[1].y!==snake.body[0].y)) {
                 snake.direction = "left";
             }
             break;
         case 39: // Right arrow
             e.preventDefault();
-            if (snake.direction !== "left") {
+            if ((snake.body[1].x+1 !== snake.body[0].x) && (snake.body[1].y!==snake.body[0].y)) {
                 snake.direction = "right";
             }
             break;
         case 27: // Escape
             paused = !paused;
+            if (paused === true) {
+                canvas.style.borderColor = "gray";
+            } else {
+                canvas.style.borderColor = "white";
+            }
             break;
     }
 });
