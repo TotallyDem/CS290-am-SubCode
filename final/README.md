@@ -15,3 +15,4 @@ Since we got to javascript, I finally implemented the snake game portion of the 
 
 --Changes for Final--
 Getting the serverside scripting done was easier that getting the php webserver setup. Nonetheless I have implemented a scoreboard which functions based on an honor system. You can easially edit scores such that they are way higher or lower than they should be. There does exist some input validation for the names, only allowing letter characters such that injection attacks should be non-existent. At least for ones that are submitted through the text box.
+I was planning on using googlemaps to show where the majority of the work for this project was done, but the requirement of attaching my card to google in order to add the map to my webpage was a bit too much.

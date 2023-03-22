@@ -86,7 +86,7 @@ usort($scores, function($a, $b) {
                         <li>Prevents page from scrolling when using arrow keys</li>
                     </ol>
                 </div>
-            </div>								
+            </div>								    
         </div>
         <script defer src="scripts/snake.js"></script>
     </body>
