@@ -1,0 +1,7 @@
+Tester,1
+LuckyGuy,13
+Michael,2
+Idiot,8
+Mistakemaker,38
+Thisisanhonorsystem,-1000Submission,2
+Submission,2
